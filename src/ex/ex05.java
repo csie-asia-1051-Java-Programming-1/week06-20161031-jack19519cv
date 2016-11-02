@@ -4,12 +4,24 @@
  * Date: 2016/10/31
  * Author: 105021059 王俊鑌
  */
-
+import java.util.Scanner;
 public class ex05 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner scn = new Scanner(System.in);
+		int n = scn.nextInt();
+		
+		
+		System.out.print(fun1(n));
 	}
-
+	public static int fun1(int n) {
+		int sum=0;
+		 while(n>0){
+			   sum = sum+((int)n)%10 ;
+			   n= n/10;
+		   }
+		     
+		return sum;
+	}
 }

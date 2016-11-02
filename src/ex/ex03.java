@@ -6,10 +6,34 @@
  */
 import java.util.Scanner;
 public class ex03 {
-
-	public static void main(String[] args) {
 		
-        
-	}
 
-}
+		public static void main(String args[]){
+			Scanner scn = new Scanner(System.in);
+			String n =scn.next();
+			decomp(n);
+			
+		}
+		
+		private static void decomp(String n ) {
+			// TODO Auto-generated method stub
+			for(int i=0; i< n.length();i++){
+				
+				System.out.print(n.charAt(i)+" ");
+				
+				
+			}
+			
+		}
+		}
+			
+			
+		
+		
+		
+		
+		
+		
+
+		
+		

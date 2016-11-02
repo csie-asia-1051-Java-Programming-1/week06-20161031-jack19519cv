@@ -14,6 +14,7 @@ public class ex02 {
      int m = scn.nextInt();
      C(n,m);
      
+     
 	}
 	public static void C(int n, int m) {
 		System.out.println(X(n)/(X(m)*X(n-m)));
