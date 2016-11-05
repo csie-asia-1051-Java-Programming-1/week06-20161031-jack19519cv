@@ -22,8 +22,8 @@ public class ex02 {
 		 }
 	public static int X(int v){
 		 int a =1;
-		 for(int i=1;i<=v;i++)
-			 a*=i;
+		 for(int i=1;i<=v;i++){
+			 a*=i;}
 		 return a;
 	}
 	
